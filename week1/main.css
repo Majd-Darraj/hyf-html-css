@@ -1,0 +1,130 @@
+body {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 90px;
+}
+
+/* Headings */
+header h1 {
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #594b3a;
+    letter-spacing: 7px;
+    font-size: 40px;
+    border-top: 1px solid #aba49c;
+    border-bottom: 6px solid #aba49c;
+    line-height: 2.5em;
+    margin-bottom: 130px;
+}
+
+h2 {
+    text-align: center;
+    color: #594b3a;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+h3 {
+    text-align: center;
+    color: #594b3a;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+/* Navigation */
+ol {
+    color: #44948F;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 26px;
+    list-style: inside decimal;
+    font-weight: 500;
+    word-break: break-all;
+    margin-top: -15px;
+}
+
+ol li a {
+    color: #44948F;
+    line-height: 60px;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+a.backtomenu {
+    color: #44948F;
+    vertical-align: middle;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 100px;
+}
+
+section p {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#art {
+    display: inline-block;
+}
+
+img {
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-right: 30px;
+}
+
+/* Quote */
+blockquote {
+    font-style: normal;
+    background: #f7f6f4;
+    padding: 50px 35px 50px 35px;
+    margin: 0;
+}
+
+blockquote p {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: right;
+    line-height: 60px;
+    padding: 0;
+    color: #000;
+    display: block;
+}
+
+blockquote p.quote {
+    font-size: 42px;
+    text-align: left;
+    padding: 0 0 0px 20px;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    border-top: 2px solid #aba49c;
+    padding: 20px 0 20px 0;
+}
